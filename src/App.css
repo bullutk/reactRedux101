@@ -22,3 +22,18 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.App-logo {
+  animation: App-logo-spin infinite 5s linear;
+  height: 80px;
+}
+
+.spinMe {
+  animation: spin-me infinite 1000s linear;
+  height: 80px;
+}
+
+@keyframes spin-me {
+  from { transform: rotate(3600deg); }
+  to { transform: rotate(0deg); }
+}

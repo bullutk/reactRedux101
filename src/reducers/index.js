@@ -7,10 +7,13 @@
 import { combineReducers } from 'redux';
 // import each reducer HERE
 import StudentReducer from './StudentReducer';
+import StudentReducer2 from './StudentReducer2';
 const rootReducer = combineReducers({
 	// inside here we pass each reducer as a key or property
 	// each property/key will be avaiable as state.key
-	students: StudentReducer
+	students: StudentReducer,
+	students2: StudentReducer2
+
 })
 
 export default rootReducer;
